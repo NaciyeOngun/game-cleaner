@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - play
+  - floor
+  - wall
+  - endGame
   layers:
   - Default
   - TransparentFX

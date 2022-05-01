@@ -15,4 +15,20 @@ public class Collider : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter(UnityEngine.Collider other)
+    {
+        if (other.tag=="wall")
+        {
+            Destroy(gameObject);
+        }
+        if (other.tag=="enemy")
+        {
+            Destroy(other.gameObject);
+        }
+        if (other.tag=="endGame")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\move.cs" />
     <Compile Include="Assets\Scripts\Collider.cs" />
+    <Compile Include="Assets\Scripts\jump.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
